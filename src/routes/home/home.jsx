@@ -30,7 +30,6 @@ const Home = () => {
       imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
     },
   ];
-  console.log("categories", categories);
   return (
     <div>
       <Directory categories={categories} />
